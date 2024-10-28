@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --primary-color: #718faa;
+  --text-color: #434343;
+  --text-secondary: #585858;
+  --bg-color: #fff;
+  
+  /* Spacing */
+  --header-height: 90px;
+  --container-padding: 400px;
+  --section-padding: 120px;
+  
+  /* Font sizes */
+  --font-xl: 50px;
+  --font-lg: 34px;
+  --font-md: 20px;
+  --font-sm: 14px;
+  
+  /* Breakpoints */
+  --mobile: 768px;
+  --desktop: 769px;
+  --max-width: 2000px;
+}
+
+/* Media Queries */
+@custom-media --mobile (max-width: 768px);
+@custom-media --desktop (min-width: 769px);
+

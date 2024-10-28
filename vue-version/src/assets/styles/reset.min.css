@@ -1,0 +1,170 @@
+@charset "utf-8";
+/** Style **/
+body, html {
+  width: 100%;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, li, form, fieldset, legend, address, figure, hr, object, iframe, img, button, input, select, textarea, label, a, span, em, strong, small, sub, sup, table, caption, thead, tbody, tfoot, tr, th, td {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+html, body, button, input, select, textarea {
+  font-family: "SpoqaHanSansNeo", "Sans-serif";
+  font-weight: 400;
+  font-size: 10px;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 1;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+i, em, dfn, address {
+  font-style: normal;
+}
+
+a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+ul, li, ol, dl {
+  list-style: none;
+}
+
+img, video {
+  max-width: 100%;
+  border: 0 none;
+  vertical-align: top;
+}
+
+.img_box{position:relative; width:100%; font-size:0;}
+.img_box img{width:100%;}
+
+
+@media (max-width: 1440px) and (min-width: 1101px){
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, a, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, button, time, mark, audio, video , dd a {font-size:inherit;}
+  }
+  
+  @media (max-width: 1100px) and (min-width: 801px) {
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, a, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, button, time, mark, audio, video, dd a {font-size:inherit;}
+  }
+  
+  @media (max-width: 800px) {
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, a, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, button, time, mark, audio, video, dd a {font-size:inherit;}
+  }
+  
+  @media all and (max-width:414px) {
+      html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, a, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, button, time, mark, audio, video, dd a {font-size:inherit;}
+  }
+
+.m_hide{display:block !important;}
+.m_show{display:none !important;}
+
+#wrap .inner_2000,
+#wrap .inner_1920,
+#wrap .inner_1440,
+#wrap .inner_1280,
+#wrap .inner_1200{position:relative; width: 100%; margin: 0 auto;}
+
+#wrap .inner_2000{max-width: 2000px;}
+#wrap .inner_1920{max-width: 1920px;}
+#wrap .inner_1440{max-width: 1440px;}
+#wrap .inner_1280{max-width: 1280px;}
+#wrap .inner_1200{max-width: 1200px;}
+
+.clearfix:after {display:block; content:''; clear:both;}
+
+.hidden,
+.blind {position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important;}
+
+/* tab */
+.tab_contents .tab_content{display:none;}
+.tab_contents .tab_content.on{display:block;}
+
+.dimm{display:none;position:fixed; top:0; left:0; right:0; bottom:0; background-color:#000; opacity:0.7; }
+
+/** HTML5 **/
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+canvas, audio, video {
+  display: inline-block;
+  vertical-align: top;
+  *display: inline;
+  *zoom: 1;
+}
+
+button {
+  overflow: visible;
+  border: 0;
+  background-color: transparent;
+  vertical-align: top;
+  line-height: normal;
+  text-transform: none;
+  cursor: pointer;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* mobile */
+
+@media all and (min-width:769px) and (max-width:2000px) {
+  #wrap .inner_2000{max-width: 100%;}
+
+}
+
+@media all and (min-width:769px) and (max-width:1440px) {
+  .inner_2000{max-width: 100%;}
+
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  html, body, button, input, select, textarea {
+    font-size: 0.9375vw;
+  }
+}
+
+@media all and (max-width:768px) {
+  .m_hide{display:none !important;}
+  .m_show{display:block !important;}
+
+  section{max-width:100%;}
+
+  .inner_2000,
+  .inner_1920,
+  .inner_1440,
+  .inner_1280,
+  .inner_1200{max-width: 100%;}
+
+}
+
