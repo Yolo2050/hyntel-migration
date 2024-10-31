@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "printWidth": 80,
+  "endOfLine": "auto",
+  "vueIndentScriptAndStyle": true,
+  "preferConst": true,
+  "arrowFunctions": true,
+  "templateLiterals": true,
+  "destructuring": true,
+  "modules": true
+} 
